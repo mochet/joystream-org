@@ -1,4 +1,5 @@
 import quarters23_24 from './2023-2024.json';
+import quarters24_25 from `./2024-2025.json`;
 
 import playIcon from '../../assets/svg/roadmap/play.svg';
 import searchIcon from '../../assets/svg/roadmap/search.svg';
@@ -100,5 +101,6 @@ export const iconMap = {
 };
 
 export default [
-  { select: { title: 'Version 1', subtitle: '2023-2024 (Current)' }, name: '2023-2024', value: quarters23_24, isNewest: true  },
+  { select: { title: 'Version 1', subtitle: '2023-2024 (Old)' }, name: '2023-2024', value: quarters23_24, isNewest: false  },
+  { select: { title: 'Version 2', subtitle: '2023-2024 (Current)' }, name: '2024-2025', value: quarters24_25, isNewest: true  },
 ];
